@@ -1,0 +1,3 @@
+# Failed Attempt
+
+Yesterday, I tried doing the normal method with a 15 minute timer. I woke up for quite a bit before starting the timer. I almost felt like I was awake during the entire time the timer was running. I think I fell asleep very quickly after the timer was up. I hardly remember what happened. I noticed on the sleep chart that I had deep sleep during that time! I've gotten a little lazier with my exercises and getting to bed late. I really need to work on getting a better bed time. If I didn't have 22 minutes of deep sleep, I maybe could've had it! I'm not sure if I would've needed to wake myself up more after the timer.
