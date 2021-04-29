@@ -1,0 +1,3 @@
+# Failed Attempt
+
+I failed today. I went to bed around the average time, maybe a little worse. I can't remember. This morning, I was really tired and didn't want to do it once again. I mean I do it everyday in the past, but I didn't feel this tired! I also noticed that I had accidentally woke up from REM. I think I remember having a smart alarm going off, but I didn't do anything because of how tired I was. I also literally had only 0 minutes of deep sleep at the time! My sleep chart eventually corrected itself, but it still wasn't a lot. I will include a screenshot at the time because it's the most bizzare one I've seen.
