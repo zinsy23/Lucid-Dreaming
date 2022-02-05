@@ -1,0 +1,31 @@
+<svg id="mPage" viewport-fill="#000000">
+  <rect width="100%" height="20" x="0" y="0" />
+  <text id="theTimer" />
+  <text id="timeHappened" />
+  <text id="accPos" />
+  <text id="accPosX" />
+  <text id="accPosY" />
+  <text id="accPosZ" />
+  <text id="timeClock" />
+  <textarea id="scroll" x="5" y="125" width="100%-10" text-length="11000" height="2000%" fill="white" font-size="24" pointer-events="visible"></textarea>
+  <textarea id="scroll2" x="5" y="6825" width="100%-10" text-length="11000" height="2000%" fill="white" font-size="24" pointer-events="visible"></textarea>
+  <textarea id="scroll3" x="5" y="13525" width="100%-10" text-length="11000" height="2000%" fill="white" font-size="24" pointer-events="visible"></textarea>
+  <textarea id="scroll4" x="5" y="20225" width="100%-10" text-length="11000" height="2000%" fill="white" font-size="24" pointer-events="visible"></textarea>
+  <textarea id="scroll5" x="5" y="26925" width="100%-10" text-length="11000" height="2000%" fill="white" font-size="24" pointer-events="visible"></textarea>
+  <textarea id="scroll6" x="5" y="29000" width="100%-10" text-length="11000" height="2000%" fill="white" font-size="24" pointer-events="visible"></textarea>
+  <use id="button-1" href="#text-button" class="text-button top right application-fill" y="-20" />
+
+
+<!--   <text id="accel-label" class="sensor-label">accelerometer</text>
+  <text id="accel-data" class="sensor-data">{ ... }</text>
+  <text id="bar-label" class="sensor-label">barometer</text>
+  <text id="bar-data" class="sensor-data">{ ... }</text>
+  <text id="bps-label" class="sensor-label">body-presence</text>
+  <text id="bps-data" class="sensor-data">{ ... }</text>
+  <text id="gyro-label" class="sensor-label">gyroscope</text>
+  <text id="gyro-data" class="sensor-data">{ ... }</text>
+  <text id="hrm-label" class="sensor-label">heart rate</text>
+  <text id="hrm-data" class="sensor-data">{ ... }</text>
+  <text id="orientation-label" class="sensor-label">orientation</text>
+  <text id="orientation-data" class="sensor-data">{ ... }</text> -->
+</svg>
