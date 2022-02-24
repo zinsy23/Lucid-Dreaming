@@ -5,6 +5,7 @@ import { vibration } from "haptics";
 import { me } from "appbit";
 import { Gyroscope } from "gyroscope";
 import { HeartRateSensor } from "heart-rate";
+import { battery } from "power";
 
 me.appTimeoutEnabled = false;
 let curAcc;
@@ -36,7 +37,7 @@ let side = -1;
 let curSide;
 let timesAsleep = 0; //////////////////
 let secondCheck; ///////////////
-let startDelay = setInterval(delayStart, 900000); 
+let startDelay = setInterval(delayStart, 900000);
 let secondFix;
 let timeUpdate = setInterval(updateTime, 60000);
 let heartRateUpdate = setInterval(updateHeartRate, 10000);
@@ -58,6 +59,7 @@ const accPosY = document.getElementById("accPosY");
 const accPosZ = document.getElementById("accPosZ");
 const timeClock = document.getElementById("timeClock");
 const heartRate = document.getElementById("heartRate");
+const batteryPercent = document.getElementById("batteryPercent");
 const theTimer = document.getElementById("theTimer");
 const theLog = document.getElementById("scroll");
 const theLog2 = document.getElementById("scroll2");
@@ -100,7 +102,7 @@ button2.addEventListener("click", (evt) => {
 function delayStart(){
   hrm.start();
   clearInterval(startDelay);
-  secondCheck = setInterval(checkSecond, 1000); 
+  secondCheck = setInterval(checkSecond, 1000);
 }
 
 function scrollMouseMove(evt){
@@ -199,9 +201,9 @@ function addData(){
     let now = new Date();
     let endTime = now.getMilliseconds();
   }
-  clearInterval(addDataInt); 
-  let newInt = 30000 - ((endTime + startTime) / 2); 
-  addDataInt = setInterval(addData, newInt);  
+  clearInterval(addDataInt);
+  let newInt = 30000 - ((endTime + startTime) / 2);
+  addDataInt = setInterval(addData, newInt);
 }
 
 function avgHeartRate(){
@@ -280,8 +282,8 @@ function getTime(){
 
 function updateHeartRate(){
   heartRate.text = hrm.heartRate;
+  batteryPercent.text = battery.chargeLevel;
 }
-
 
 function getSecond(){
   let date = new Date();
