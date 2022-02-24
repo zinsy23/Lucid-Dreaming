@@ -1,0 +1,101 @@
+.sensor-label {
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: middle;
+  text-length: 32;
+  font-size: 20;
+  x: 50%;
+  y: $+5;
+}
+
+.sensor-data {
+  font-family: System-Light;
+  fill: yellow;
+  text-anchor: middle;
+  text-length: 64;
+  font-size: 20;
+  x: 50%;
+  y: $;
+}
+
+#theTimer {
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: middle;
+  text-length: 32;
+  font-size: 96;
+  x: 50%;
+  y: 60%;
+}
+
+#accPos {
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: middle;
+  text-length: 32;
+  font-size: 64;
+  x: 50%;
+  y: 60%;
+}
+
+#accPosX {
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: middle;
+  text-length: 32;
+  font-size: 64;
+  x: 50%;
+  y: 40%;
+}
+
+#accPosY {
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: middle;
+  text-length: 32;
+  font-size: 69;
+  x: 50%;
+  y: 60%;
+}
+
+#accPosZ {
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: middle;
+  text-length: 32;
+  font-size: 42;
+  x: 50%;
+  y: 80%;
+}
+
+#timeClock {
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: middle;
+  text-length: 32;
+  font-size: 32;
+  x: 50%;
+  y: 30%; 
+}
+
+#heartRate {
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: middle;
+  text-length: 32;
+  font-size: 32;
+  x: 80%;
+  y: 90%; 
+}
+
+.application-fill           { fill: fb-black; }
+.foreground-fill            { fill: fb-white; }
+.background-fill            { fill: fb-black; }
+
+#button-1 #text {
+  text-buffer: "+";
+}
+
+#button-2 #text {
+  text-buffer: "-";
+}
