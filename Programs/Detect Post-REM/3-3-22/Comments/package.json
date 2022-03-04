@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~5.0.0"
+  },
+  "fitbit": {
+    "appUUID": "d831bac9-6976-4792-91e8-c723c2bad626",
+    "appType": "app",
+    "appDisplayName": "Detect Post-REM",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity",
+      "access_sleep"
+    ],
+    "buildTargets": [
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Detect Post-REM"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
