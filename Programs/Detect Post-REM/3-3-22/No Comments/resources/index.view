@@ -1,0 +1,12 @@
+<svg id="mPage" viewport-fill="#000000">
+  <rect width="100%" height="20" x="0" y="0" />
+  <text id="timeClock" />
+  <text id="heartRate" />
+  <text id="batteryPercent" />
+  <textarea id="scroll" x="5" y="125" width="100%-10" text-length="11000" height="2000%" fill="white" font-size="24" pointer-events="visible"></textarea>
+  <textarea id="scroll2" x="5" y="6825" width="100%-10" text-length="11000" height="2000%" fill="white" font-size="24" pointer-events="visible"></textarea>
+  <textarea id="scroll3" x="5" y="13525" width="100%-10" text-length="11000" height="2000%" fill="white" font-size="24" pointer-events="visible"></textarea>
+  <textarea id="scroll4" x="5" y="20225" width="100%-10" text-length="11000" height="2000%" fill="white" font-size="24" pointer-events="visible"></textarea>
+  <textarea id="scroll5" x="5" y="26925" width="100%-10" text-length="11000" height="2000%" fill="white" font-size="24" pointer-events="visible"></textarea>
+  <textarea id="scroll6" x="5" y="29000" width="100%-10" text-length="11000" height="2000%" fill="white" font-size="24" pointer-events="visible"></textarea>
+</svg>

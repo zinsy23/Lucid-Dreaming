@@ -1,0 +1,39 @@
+#accPos {
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: middle;
+  text-length: 32;
+  font-size: 64;
+  x: 50%;
+  y: 60%;
+}
+
+#timeClock {
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: middle;
+  text-length: 32;
+  font-size: 32;
+  x: 50%;
+  y: 30%; 
+}
+
+#heartRate {
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: middle;
+  text-length: 32;
+  font-size: 32;
+  x: 80%;
+  y: 85%; 
+}
+
+#batteryPercent {
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: middle;
+  text-length: 32;
+  font-size: 32;
+  x: 80%;
+  y: 95%; 
+}
